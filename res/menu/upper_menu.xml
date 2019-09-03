@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+   
+    <item android:id="@+id/action_image"
+          android:icon="@drawable/abc"
+          android:title="@string/app_name"
+          android:showAsAction="always" />
+     <item android:id="@+id/unread_news"
+          android:icon="@drawable/ic_action_unread"
+          android:title="@string/unread_news"
+          android:showAsAction="always" />
+    
+    <!-- Settings, should always be in the overflow -->
+     <item android:id="@+id/action_refresh"
+          android:title="@string/refresh"
+          android:icon="@drawable/ic_action_refresh"
+          android:showAsAction="always" />
+     <item android:id="@+id/action_settings"
+         android:icon="@drawable/ic_action_overflow"
+          android:title="@string/action_settings"
+          android:showAsAction="always" />
+         
+         
+         <!-- android:showAsAction="never" --> 
+</menu>
